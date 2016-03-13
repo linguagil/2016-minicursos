@@ -34,7 +34,8 @@ deactivate
 Dentro do ambiente ativado, use o pip para instalar os pacotes básicos para o nosso curso:
 
 ```
-pip install django djangorestframework django-filter
+pip install --upgrade pip==8.1.0
+pip install Django==1.9.4 django-extensions==1.6.1 django-filter==0.12.0 djangorestframework==3.3.2
 ```
 
 Durante o curso, instalaremos outros pacotes.
